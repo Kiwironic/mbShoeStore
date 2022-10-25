@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MB\'s Shoe Store!!</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="logout">Logout</string>
+    <string name="welcomeTitle">Welcome to MB\'s ShoeStoreApp</string>
+    <string name="price_format_USD">\$%sUSD"</string>
+    <string name="hello_user">Hello %s!</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="instructions_txt">Instructions</string>
+    <string name="instructions_details_txt">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet porta diam, in finibus elit. Mauris interdum interdum ligula quis porta. Morbi non fermentum odio. In vel ex fringilla, ullamcorper dolor sed, consectetur tortor. Nullam vestibulum nunc mi, in tempus ante ornare vitae. Donec tincidunt ante nec dui lobortis, sit amet lacinia dolor rhoncus. Praesent molestie tortor lectus, id condimentum nibh pharetra non. Aliquam laoreet ligula quis tristique condimentum. Donec nec dolor sit amet arcu elementum rutrum eu at ex. Praesent ut dolor ut ex finibus euismod. Fusce et venenatis ante. Donec pharetra vulputate mi, vel aliquet turpis porttitor a. Duis nulla velit, egestas vitae odio nec, pretium viverra est. Nullam blandit nisl sed imperdiet posuere. Vestibulum sodales sem eu erat venenatis viverra.  "</string>
+    <string name="startBtn">Start</string>
+    <string name="hint_username">User name:</string>
+    <string name="hint_password">Password</string>
+    <string name="this_is_required_field">This is a required field</string>
+    <string name="welcome_details_txt"><![CDATA[Some text here -> Are you ready to start?]]></string>
+    <string name="listofshoes">This is a list of shoes available</string>
+    <string name="label_or">or</string>
+    <string name="product_company">Product Company</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_size">Product Size</string>
+    <string name="product_description">Product Description</string>
+    <string name="save_product">Save Product</string>
+    <string name="cancel_product">Cancel Product</string>
+</resources>
