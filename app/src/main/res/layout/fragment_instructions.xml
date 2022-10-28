@@ -4,6 +4,19 @@
 
     <data />
 
+    <!--
+ Using Constraint layout here as the fragment increases in complexity as well as
+     positioning different views/modules relative to each other not to mention the obvious
+     advantages of constraint layout such as:
+         1- Performance gains
+         2- Rendering and GPU overdraw problems easier to deal with using
+             constraint layout (not sure about this, but need to do more investigations)
+
+
+     *** I have to admit, a Linear layout here would have been perfectly fine despite the
+     given reasons above
+ -->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

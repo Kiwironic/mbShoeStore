@@ -4,14 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools">
     <data />
 
+
+    <!--
+   Using Constraint layout here as the fragment increases in complexity as well as
+       positioning different views/modules relative to each other not to mention the obvious
+       advantages of constraint layout such as:
+           1- Performance gains
+           2- Rendering and GPU overdraw problems easier to deal with using
+               constraint layout (not sure about this, but need to do more investigations)
+           3- I was planning to add images and other styling to make it look "prettier",
+           side by side elements etc..
+           but I kinda ran out of time (I work full time, social life + studies)
+           Not an excuse but here it is another reason (future-proofing the fragment
+           for future updates) :)
+   -->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/shoelistConstrainLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
-
-
-
         <ScrollView
             android:id="@+id/scrollView2"
             android:layout_width="match_parent"

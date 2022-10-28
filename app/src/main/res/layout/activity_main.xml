@@ -4,6 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data/>
+
+    <!--
+    Using Linear Layout here as there aren't many components as
+    it is a fairly simple "container" for other modules like the app Bar and the fragment container
+    Reason 2 -> no need for positioning or relative positioning in this case, in fact the relative positining used here
+     aligns with the purpose of a linear layout
+    #todo: Update this comment if the layout choices change
+    -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

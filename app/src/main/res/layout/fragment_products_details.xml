@@ -15,9 +15,28 @@
         android:layout_height="match_parent"
         android:fillViewport="true">
 
+        <!--
+        I should have used a Constraint layout here as the fragment increases in complexity as well as
+           positioning different views/modules relative to each other not to mention the obvious
+           advantages of constraint layout such as:
+               1- Performance gains
+               2- Rendering and GPU overdraw problems easier to deal with using
+                   constraint layout (not sure about this, but need to do more investigations)
+
+           I will switch to a constraint layout in the next version. That said here are some reasons
+           why using a linear layout for this fragments "made sense":
+           1- Fairly simple layout
+           2- No need for positioning magic
+           3- The performance gains might not be worth the extra work to define
+           constraint layout extra attributes for each module
+        -->
+
+        <!--
+            #todo: refactor to use constraint layout
+        -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputLayout
